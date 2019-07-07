@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`remark abbr plugin renders abbr nodes properly 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "type": "text",
+          "value": "This plugin works on ",
+        },
+        Object {
+          "abbr": "MDAST",
+          "children": Array [
+            Object {
+              "type": "text",
+              "value": "MDAST",
+            },
+          ],
+          "data": Object {
+            "hName": "abbr",
+            "hProperties": Object {
+              "title": "Markdown Abstract Syntax Tree.",
+            },
+          },
+          "position": Position {
+            "end": Object {
+              "column": 1,
+              "line": 5,
+              "offset": 143,
+            },
+            "indent": Array [
+              1,
+            ],
+            "start": Object {
+              "column": 1,
+              "line": 4,
+              "offset": 102,
+            },
+          },
+          "type": "abbr",
+        },
+        Object {
+          "type": "text",
+          "value": ", a Markdown ",
+        },
+        Object {
+          "abbr": "AST",
+          "children": Array [
+            Object {
+              "type": "text",
+              "value": "AST",
+            },
+          ],
+          "data": Object {
+            "hName": "abbr",
+            "hProperties": Object {
+              "title": "Abstract syntax tree",
+            },
+          },
+          "position": Position {
+            "end": Object {
+              "column": 29,
+              "line": 5,
+              "offset": 171,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 1,
+              "line": 5,
+              "offset": 143,
+            },
+          },
+          "type": "abbr",
+        },
+        Object {
+          "type": "text",
+          "value": "
+implemented by ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "position": Position {
+                "end": Object {
+                  "column": 23,
+                  "line": 2,
+                  "offset": 65,
+                },
+                "indent": Array [],
+                "start": Object {
+                  "column": 17,
+                  "line": 2,
+                  "offset": 59,
+                },
+              },
+              "type": "text",
+              "value": "remark",
+            },
+          ],
+          "position": Position {
+            "end": Object {
+              "column": 58,
+              "line": 2,
+              "offset": 100,
+            },
+            "indent": Array [],
+            "start": Object {
+              "column": 16,
+              "line": 2,
+              "offset": 58,
+            },
+          },
+          "title": null,
+          "type": "link",
+          "url": "https://github.com/wooorm/remark",
+        },
+      ],
+      "position": Position {
+        "end": Object {
+          "column": 58,
+          "line": 2,
+          "offset": 100,
+        },
+        "indent": Array [
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 29,
+      "line": 5,
+      "offset": 171,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
