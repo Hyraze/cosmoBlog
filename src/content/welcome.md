@@ -10,6 +10,8 @@ draft: false
 
 ##👋 Welcome, it's great to have you here.
 
-This is the educational blog containing various courses,learning material from various authors from all over the world. ---
-subscribe the blog for the frequent update!!
+![Test Image](avatars/cosmotory.png)
+
+This is the **educational** blog containing various courses,learning material from various authors from all over the world. ---
+<span style="text-decoration:underline;">subscribe</span> the blog for the frequent update!!
 original portal[https://www.cosmotory.xyz]{}
