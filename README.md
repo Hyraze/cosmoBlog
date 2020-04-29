@@ -1,4 +1,5 @@
 # Cosmotory(cosmotory.xyz)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a97ba1a-6ce0-4336-b6dc-f5d899e6a3b7/deploy-status)](https://app.netlify.com/sites/cosmotory/deploys)
 
 Demo: https://cosmotory.netlify.com/  
 
