@@ -12,7 +12,9 @@
     "lint": "eslint src/**/*.tsx src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.tsx src/**/*.ts",
     "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@emotion/core": "10.0.28",
@@ -55,7 +57,8 @@
     "react-dom": "16.13.1",
     "react-emotion": "10.0.0",
     "react-helmet": "5.2.1",
-    "rehype-react": "3.1.0"
+    "rehype-react": "3.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/classnames": "2.2.10",
@@ -80,5 +83,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
