@@ -76,7 +76,7 @@
     "eslint-plugin-react": "7.13.0",
     "eslint-plugin-react-hooks": "1.7.0",
     "rimraf": "2.7.1",
-    "typescript": "3.8.3"
+    "typescript": "3.9.10"
   },
   "engines": {
     "node": ">=8.0.0"
