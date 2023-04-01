@@ -42,7 +42,7 @@
     "gatsby-source-filesystem": "2.3.0",
     "gatsby-transformer-json": "2.4.0",
     "gatsby-transformer-remark": "5.25.1",
-    "gatsby-transformer-sharp": "2.5.0",
+    "gatsby-transformer-sharp": "4.8.0",
     "gatsby-transformer-yaml": "2.4.0",
     "lodash": "4.17.21",
     "modern-normalize": "0.6.0",
